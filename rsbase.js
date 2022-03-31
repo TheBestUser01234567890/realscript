@@ -1,0 +1,3 @@
+let ref = {
+  getRef: function
+}
