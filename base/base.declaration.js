@@ -1,7 +1,12 @@
-function BaseDeclaration(){
-  var Constructor;
-  if(Constructor != Boolean){
-    throw(0x000001,"DeclarationError"," - ","The declaration Constructor must be a boolean.");
+function BaseDeclaration(name, value){
+  function Constructor(_value){
+    if(_value!=Boolean){
+      throw(`0x000001 DeclarationError - The declaration Constructor must be a boolean.`);
+    };
   };
+  if(name="Constructor"){
+    Constructor(value)
+  }
   // to be continued
 };
+// BaseDeclaration("Constructor", 0)
