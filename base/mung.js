@@ -14,5 +14,3 @@ function mungConsole(data){
     data = null;
     console.log(data);
 };
-// mung("I will not be printed");
-// mungConsole("I will be printed");
