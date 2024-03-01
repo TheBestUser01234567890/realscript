@@ -1,0 +1,6 @@
+/_no_import io.rls/
+class console{  
+ public func log(str _str){
+  js.run("console.log(\v_str)")
+ };
+};
